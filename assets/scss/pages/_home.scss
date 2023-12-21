@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    .container{
+        .row{
+            .col-xl-6{
+                .icons{
+                    display: flex;
+                    gap: 20px;
+                    padding-top: 5px;
+                }
+
+                .number{
+                    display: flex;
+                    gap: 20px;
+                    justify-content: end;
+                }
+            }
+        }
+    }
+}
+
+main{
+
+    #securityService{
+        height: 650px;
+      color: rgb(0, 0, 0);
+      background: linear-gradient(rgb(0, 0, 0,0.6),rgb(0, 0, 0,0.6)),url('https://preview.colorlib.com/theme/security/img/header-bg.jpg');
+      background-size: cover;
+      padding-top: 30px;
+        .container{
+            .row{
+                .col-xl-12{
+                    .securityNav{
+                        margin-bottom: 30px;
+                        .navbar{
+                            .container-fluid{
+                                .collapse{
+                                    display: flex;
+                                    justify-content: flex-end;
+
+                                    ul{
+                                        li{
+                                            a{
+                                                color: white;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                    .securityText{
+                        color: white;
+                        h5{
+                            font-size: 16px;
+                            margin-top: 30px;
+                            margin-bottom: 10px;
+                        }
+                        h1{
+                            font-size: 60px;
+                            font-weight: 700;
+                            margin-bottom: 10px;
+                        }
+                        p{
+                            font-size: 18px;
+                            margin-bottom: 20px;
+                        }
+                        button{
+                            width: 170px;
+                            padding: 8px 0px;
+                            border: none;
+                            background-color: #FFD802;
+                            color: white;
+                            font-size: 15px;
+                            font-weight: 500;
+                            margin-bottom: 30px;
+
+                            &:hover{
+                                background-color: black;
+                                color: #FFD802;
+                                border: 1px solid #FFD802;
+                            }
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #ourServices{
+        padding-top: 30px;
+        .container{
+            .row{
+                .col-xl-12{
+                    .ourText{
+                        text-align: center;
+                        margin-top: 30px;
+                        p{
+                            color: #6E6F75;padding-bottom: 30px;
+                        }
+                    }
+                }
+
+                .col-xl-4{
+                  
+                    .ourImg{
+                        img{
+                            width: 100%;
+                        }
+                        h1{
+                            font-size: 21px;
+                            margin: 15px 0px;
+                        }
+                        p{
+                            color: #6E6F75;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    #someFeatures{
+        .container{
+            .row{
+
+                .col-xl-12{
+                    .someText{
+                        text-align: center;
+                        h1{
+                            margin-top: 30px;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+
+                .col-xl-4{
+                    .someCard{
+                        h5{
+                            margin-top: 30px;
+                            i{
+                                padding-right: 10px;
+                                color: #6E6F75;
+                                margin: 30px 0px;
+                            }
+                        }
+                        p{
+                            color: #6E6F75;
+                            margin-bottom: 30px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer{
+    background-color: #04091E;
+    color: white;
+    .container{
+        .row{
+            .col-xl-12{
+                .textFoot{
+                    margin-top: 20px;
+                    p{
+                        a{
+                            text-decoration: none;
+                            color: #FAB700;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
